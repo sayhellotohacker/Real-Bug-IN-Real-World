@@ -180,5 +180,5 @@ This write-up is published for **educational and portfolio purposes only**. The 
 
 <p align="center">
   <b>⭐ Found this useful? Give it a star!</b><br>
-  <i>Connect with me on <a href="https://github.com/YOUR_USERNAME">GitHub</a></i>
+  <i>Connect with me on <a href="https://github.com/sayhellotohacker">GitHub</a></i>
 </p>
