@@ -1,4 +1,4 @@
-```markdown
+
 # Unauthenticated WebSocket Registration in a Cryptocurrency Daemon Leading to Real-Time Wallet Transaction Leakage
 
 **Researcher:** [Sayhellotohacker]  
