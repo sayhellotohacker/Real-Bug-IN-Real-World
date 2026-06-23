@@ -12,7 +12,7 @@
 # Unauthenticated WebSocket Registration in a Cryptocurrency Daemon Leading to Real-Time Wallet Transaction Leakage
 
 **Researcher:** Sayhellotohacker  
-**Date:** June 2026  
+**Date:** 21 June 2026  
 **Bug Bounty Platform:** HackerOne
 **Status:** ✅ Validated – Duplicate (issue previously reported by another researcher)  
 
@@ -145,10 +145,10 @@ Following the disclosure, the project maintainers implemented application‑laye
 
 ## 📅 Timeline
 
-- **June 2026** – Vulnerability discovered and proof of concept developed.
-- **June 2026** – Report submitted to the official bug bounty program.
-- **June 2026** – Triage result: **Validated (Duplicate)** – the issue was already known to the team.
-- **June 2026** – Public disclosure (anonymized) after the fix was confirmed.
+- **21 June 2026** – Vulnerability discovered and proof of concept developed.
+- **21 June 2026** – Report submitted to the official bug bounty program.
+- **23 June 2026** – Triage result: **Validated (Duplicate)** – the issue was already known to the team.
+
 
 ---
 
