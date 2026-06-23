@@ -11,9 +11,9 @@
 
 # Unauthenticated WebSocket Registration in a Cryptocurrency Daemon Leading to Real-Time Wallet Transaction Leakage
 
-**Researcher:** [Sayhellotohacker]  
+**Researcher:** Sayhellotohacker  
 **Date:** June 2026  
-**Bug Bounty Platform:** [HackerOne / Bugcrowd]  
+**Bug Bounty Platform:** HackerOne
 **Status:** ✅ Validated – Duplicate (issue previously reported by another researcher)  
 
 ![Report Status](images/1.png)
