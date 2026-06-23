@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Severity-CRITICAL-red?style=for-the-badge" alt="Severity: High">
+  <img src="https://img.shields.io/badge/Severity-HIGH-red?style=for-the-badge" alt="Severity: High">
   <img src="https://img.shields.io/badge/CVSS-9.8-darkred?style=for-the-badge" alt="CVSS:7.5">
   <img src="https://img.shields.io/badge/Status-Triaged_(Duplicate)-orange?style=for-the-badge" alt="Status: Triaged">
 </p>
