@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Severity-CRITICAL-red?style=for-the-badge" alt="Severity: High">
+  <img src="https://img.shields.io/badge/CVSS-9.8-darkred?style=for-the-badge" alt="CVSS:7.5">
+  <img src="https://img.shields.io/badge/Status-Triaged_(Duplicate)-orange?style=for-the-badge" alt="Status: Triaged">
+</p>
+
+<h1 align="center">🔓 Unauthenticated WebSocket Registration</h1>
+<h3 align="center">Full Site Takeover via Wix API Endpoints</h3>
+
+<br>
 
 # Unauthenticated WebSocket Registration in a Cryptocurrency Daemon Leading to Real-Time Wallet Transaction Leakage
 
@@ -6,7 +16,7 @@
 **Bug Bounty Platform:** [HackerOne / Bugcrowd]  
 **Status:** ✅ Validated – Duplicate (issue previously reported by another researcher)  
 
-![Report Status](screenshots/duplicate_report.png)
+![Report Status](images/1.png)
 
 > *Screenshot of the triage result showing the vulnerability was validated but marked as duplicate. Sensitive information has been redacted.*
 
