@@ -5,7 +5,6 @@
 </p>
 
 <h1 align="center">🔓 Unauthenticated WebSocket Registration</h1>
-<h3 align="center">Full Site Takeover via Wix API Endpoints</h3>
 
 <br>
 
