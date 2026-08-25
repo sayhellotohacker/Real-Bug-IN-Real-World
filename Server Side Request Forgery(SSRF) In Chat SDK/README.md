@@ -24,7 +24,7 @@ Status: Triaged / Confirmed by Security Team
 
 The vulnerability report was reviewed and validated by the HackerOne triage team and Vercel Security.
 
-[ PLACEHOLDER: Insert your HackerOne Triaged Screenshot here ]
+![Report Status](1.png)
 (Image showing the HackerOne analyst comment confirming the vulnerability)
 
 ---
