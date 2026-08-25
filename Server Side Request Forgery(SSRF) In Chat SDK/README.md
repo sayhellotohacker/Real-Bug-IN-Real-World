@@ -10,13 +10,20 @@
 <br>
 
 
-Target: vercel/chat (Vercel Open Source)
-Vulnerability Type: Server-Side Request Forgery (SSRF)
-Severity: Critical (CVSS 9.8)
-CVSS Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-Researcher: Sayhellotohacker
-Report Date: August 10, 2026
-Status: Triaged / Confirmed by Security Team
+Target: vercel/chat (Vercel Open Source)<br>
+
+Vulnerability Type: Server-Side Request Forgery (SSRF)<br>
+
+Severity: Critical (CVSS 9.8)<br>
+
+CVSS Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H<br>
+
+Researcher: Sayhellotohacker<br>
+
+Report Date: August 10, 2026<br>
+
+Status: Triaged / Confirmed by Security Team<br>
+
 
 ---
 
