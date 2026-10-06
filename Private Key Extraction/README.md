@@ -353,13 +353,4 @@ I did not have access to a production Nitro Enclave instance (which requires an 
 
 ---
 
-## References
-
-- [Repository](https://github.com/circlefin/arc-remote-signer)
-- [AWS Nitro Enclaves documentation](https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html)
-- [AWS KMS Recipient parameter documentation](https://docs.aws.amazon.com/kms/latest/developerguide/attestation.html)
-- [Linux AF_VSOCK implementation (net/vmw_vsock/af_vsock.c)](https://github.com/torvalds/linux/blob/master/net/vmw_vsock/af_vsock.c)
-
----
-
 **Note:** This write-up is published for educational and defensive purposes. The vulnerability has been reported through coordinated disclosure. Readers are encouraged to follow coordinated disclosure practices.
