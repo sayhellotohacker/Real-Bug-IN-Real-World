@@ -13,7 +13,7 @@
 
 This finding was reviewed by the program's triage team and marked as a duplicate of an earlier submission. The screenshot below shows the HackerOne response:
 
-> 📷 **[IMAGE 1 — HackerOne duplicate confirmation screenshot goes here]**
+> 📷 **[./images/hackerone-duplicate.png][IMAGE 1 — HackerOne duplicate confirmation screenshot goes here]**
 > *Filename suggestion:* `images/hackerone-duplicate.png`
 
 Because the finding was already known, no bounty was awarded. This write-up is published for educational and defensive purposes only.
