@@ -3,6 +3,7 @@
 **Author:** Sayhellotohacker
 **Target:** `github.com/circlefin/arc-remote-signer` — commit `a95f05b2d8e90af0bc9e890efd9ee7bc8b51b5b0` (v1.7.8)
 **Status:** Reported via coordinated disclosure — triaged as duplicate
+**Severity:** Extreme
 **Disclosure:** No production infrastructure, testnet, or validator node was accessed. All testing was performed against a local development deployment of the open-source repository.
 
 ---
@@ -13,8 +14,7 @@
 
 This finding was reviewed by the program's triage team and marked as a duplicate of an earlier submission. The screenshot below shows the HackerOne response:
 
-> 📷 **![IMAGE 1 — HackerOne duplicate confirmation screenshot goes here](images/hackerone-duplicate.png)**
-> *Filename suggestion:* `images/hackerone-duplicate.png`
+![HackerOne duplicate confirmation](images/hackerone-duplicate.png)
 
 Because the finding was already known, no bounty was awarded. This write-up is published for educational and defensive purposes only.
 
@@ -106,9 +106,6 @@ deployments-vsockproxy-1
 localstack                 127.0.0.1:4566->4566/tcp, ...
 ```
 
-> 📷 **[IMAGE 2 — `docker ps` output showing port 10350 exposed]**
-> *Filename suggestion:* `images/docker-ps.png`
-
 ### 2. Discover the enclave gRPC service
 
 ```bash
@@ -166,9 +163,6 @@ The payload decodes to `transfer 100 tokens to attacker`. Output:
 ```
 
 No credentials, no session token, no peer verification.
-
-> 📷 **[IMAGE 3 — `grpcurl` output showing successful unauthenticated `SignMessage`]**
-> *Filename suggestion:* `images/signmessage-no-auth.png`
 
 ### 5. Attacker prepares their own KMS key
 
@@ -232,9 +226,6 @@ Output (envelope wrapped with the attacker's KMS key):
   }
 }
 ```
-
-> 📷 **[IMAGE 4 — `Initialize` response showing `secretEnvelope` wrapped with the attacker's KMS ARN]**
-> *Filename suggestion:* `images/initialize-attacker-envelope.png`
 
 ### 7. Legitimate host restarts — receives the cached attacker envelope
 
@@ -301,8 +292,8 @@ Output — **the private key in cleartext:**
 feb4731cff6bfa573950e7c445980397da3c125683de06dfa20495da76246a33879744a258ce0da80a965ac2521c47a80198b7107de44ca06782f17eeede2bdd
 ```
 
-> 📷 **![IMAGE 5 — Terminal output showing the extracted private key in cleartext](images/extracted-private-key.png)**
-> *Filename suggestion:* `images/extracted-private-key.png`
+![Extracted private key](images/extracted-private-key.png)
+
 > **⚠️ REDACTION REQUIRED:** Before publishing, blur or black out most of the hex string. Keep only the first 8 and last 6 characters visible to prove extraction without exposing the full key.
 
 ### 9. Confirmation
@@ -372,12 +363,13 @@ I did not have access to a production Nitro Enclave instance (which requires an 
 
 ## Disclosure Timeline
 
-- **Discovery:** 2026,Oct,5
-- **Reported:** 2026,Oct,5
+- **Discovery:** 2026, Oct, 5
+- **Reported:** 2026, Oct, 5
 - **Status:** Triaged as duplicate
 - **Public disclosure:** This write-up is published after coordinated disclosure. No production infrastructure, testnet, or validator node was accessed at any point. All testing was performed against a local development deployment of the open-source repository.
 
 ---
+
 ## Acknowledgements
 
 Thanks to the security team for maintaining a public bug bounty program and for reviewing this report.
