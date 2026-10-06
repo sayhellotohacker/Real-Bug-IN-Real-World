@@ -1,6 +1,6 @@
 # Unauthenticated Enclave gRPC and Host-Controlled KMS ARN Lead to Full Validator Private Key Extraction
 
-**Author:** [Your Handle]
+**Author:** Sayhellotohacker
 **Target:** `github.com/circlefin/arc-remote-signer` — commit `a95f05b2d8e90af0bc9e890efd9ee7bc8b51b5b0` (v1.7.8)
 **Status:** Reported via coordinated disclosure — pending triage
 **Disclosure:** No production infrastructure, testnet, or validator node was accessed. All testing was performed against a local development deployment of the open-source repository.
