@@ -13,7 +13,7 @@
 
 This finding was reviewed by the program's triage team and marked as a duplicate of an earlier submission. The screenshot below shows the HackerOne response:
 
-> 📷 **[./images/hackerone-duplicate.png][IMAGE 1 — HackerOne duplicate confirmation screenshot goes here]**
+> 📷 **![IMAGE 1 — HackerOne duplicate confirmation screenshot goes here](images/hackerone-duplicate.png)**
 > *Filename suggestion:* `images/hackerone-duplicate.png`
 
 Because the finding was already known, no bounty was awarded. This write-up is published for educational and defensive purposes only.
@@ -301,7 +301,7 @@ Output — **the private key in cleartext:**
 feb4731cff6bfa573950e7c445980397da3c125683de06dfa20495da76246a33879744a258ce0da80a965ac2521c47a80198b7107de44ca06782f17eeede2bdd
 ```
 
-> 📷 **[IMAGE 5 — Terminal output showing the extracted private key in cleartext]**
+> 📷 **[IMAGE 5 — Terminal output showing the extracted private key in cleartext](images/extracted-private-key.png)**
 > *Filename suggestion:* `images/extracted-private-key.png`
 > **⚠️ REDACTION REQUIRED:** Before publishing, blur or black out most of the hex string. Keep only the first 8 and last 6 characters visible to prove extraction without exposing the full key.
 
