@@ -361,14 +361,6 @@ I did not have access to a production Nitro Enclave instance (which requires an 
 
 ---
 
-## Disclosure Timeline
-
-- **Discovery:** 2026, Oct, 5
-- **Reported:** 2026, Oct, 5
-- **Status:** Triaged as duplicate
-- **Public disclosure:** This write-up is published after coordinated disclosure. No production infrastructure, testnet, or validator node was accessed at any point. All testing was performed against a local development deployment of the open-source repository.
-
----
 
 ## Acknowledgements
 
