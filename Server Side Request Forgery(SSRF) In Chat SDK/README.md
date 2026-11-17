@@ -20,8 +20,6 @@ CVSS Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H<br>
 
 Researcher: Sayhellotohacker<br>
 
-Report Date: August 10, 2026<br>
-
 Status: Triaged / Confirmed by Security Team<br>
 
 
